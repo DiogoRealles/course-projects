@@ -1,0 +1,16 @@
+@use '../1-bases/variables';
+
+#header{
+  border-bottom: 1px solid variables.$light-grey;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: variables.$bg;
+  width: 100%;
+}
+#header.scroll{
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, .1);
+}

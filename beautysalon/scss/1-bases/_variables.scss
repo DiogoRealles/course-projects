@@ -1,0 +1,29 @@
+// COLOR
+$dark: #0F241D;
+$primary: #69B99D;
+$grey: #767676;
+$secondy: #CCF4E6;
+$light: #fff;
+$greadient-1: linear(#69B99D, #CCF4E6);
+$light-grey: #E4E4E4;
+$bg: #f9f9f9;
+
+// TYPES
+$type-1: 'DM Sans', sans-serif;
+$type-2: 'Poppins', sans-serif;
+
+$title-font-size: 3.6rem;
+$subtitle-font-size: 1.8rem;
+// HEIGHT
+$header-height: 7.2rem;
+
+
+// COLOR ALTERNATIVE
+$hue: 159;
+$base-color: hsl($hue 36% 57%);
+$base-color-second: hsl($hue 65% 88%);
+$base-color-alt: hsl($hue 57% 33%);
+$title-color: hsl($hue 41% 10%);
+$text-color: hsl(0 0% 46%);
+$text-color-light: hsl(0 0% 98%);
+$body-color: hsl(0 0% 98%);

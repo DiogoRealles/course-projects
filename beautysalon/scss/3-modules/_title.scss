@@ -1,0 +1,8 @@
+@use '../1-bases/variables';
+
+.title{
+  font-size: 3rem;
+  line-height: 130%;
+  font-weight: 700;
+  color: variables.$dark;
+}
