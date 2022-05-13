@@ -1,0 +1,31 @@
+@use './variables';
+
+html,
+body{
+  scroll-behavior: smooth;
+}
+body{
+  font: 400 1.6rem variables.$type-1;
+  background: variables.$bg;
+}
+a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+h1, h2, h3{
+  font-family: variables.$type-2;
+  color: variables.$dark;
+}
+h2, h3{
+  font-size: 3.2rem;
+  line-height: 135%;
+  font-weight: 500;
+}
+p{
+  font-size: 1.6rem;
+  line-height: 150%;
+  font-weight: 400;
+  color: variables.$grey;
+}

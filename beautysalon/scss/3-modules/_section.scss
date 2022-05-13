@@ -1,0 +1,14 @@
+@use '../1-bases/variables';
+
+.section{
+  padding: calc(8rem + variables.$header-height) 0;
+}
+.section .title{
+  margin-bottom: 1.6rem;
+}
+.section header{
+  margin-bottom: 6.4rem;
+}
+.section header strong{
+  color: variables.$primary;
+}

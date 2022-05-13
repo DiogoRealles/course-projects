@@ -1,0 +1,94 @@
+@use '../1-bases/variables';
+
+@media(min-width: 768px){
+  .container{
+    max-width: min(90%, 1120px);
+    margin-inline: auto;
+  }
+  .section{
+    padding: 16rem 0;
+  }
+  .section header,
+  #testimonials header{
+    max-width: 64rem;
+    text-align: center;
+    margin-inline: auto;
+  }
+  .button{
+    height: 5rem;
+  }
+  nav .menu{
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+  }
+  nav .menu ul{
+    display: flex;
+    gap: 2rem;
+  }
+  nav .menu ul li a.title{
+    font-weight: 400;
+    font-size: 1.6rem;
+    font-family: variables.$type-1;
+  }
+  nav ul li a.title.active{
+    font-weight: 700;
+  }
+  nav .icon-menu{
+    display: none;
+  }
+  main{
+    margin-top: variables.$header-height;
+  }
+  #home .container{
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  #home .image{
+    order: 1;
+  }
+  #home .text{
+    order: 0;
+    max-width: 39.6rem;
+    text-align: left;
+  }
+  #about .container{
+    margin: 0 auto;
+    grid-auto-flow: column;
+  }
+  #services .cards{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card{
+    padding-inline: 4.8rem;
+  }
+  #testimonials .container{
+    margin-inline: auto;
+  }
+  #contact .container{
+    grid-auto-flow: column;
+    align-items: center;
+  }
+  #contact .text{
+    max-width: 40.4rem;
+  }
+  .footer.section{
+    padding: 6rem 0;
+  }
+  .footer .container{
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+
+@media(min-width: 992px){
+  .title{
+    font-size: variables.$title-font-size;
+  }
+  .subtitle{
+    font-size: variables.$subtitle-font-size;
+  }
+}

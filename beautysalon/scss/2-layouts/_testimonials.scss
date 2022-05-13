@@ -1,0 +1,55 @@
+@use '../1-bases/variables';
+
+#testimonials{
+  background: variables.$light;
+}
+#testimonials .container{
+  margin-inline: 0;
+}
+#testimonials header{
+  margin-inline: 2.4rem;
+  margin-bottom: 0;
+}
+#testimonials blockquote{
+  padding: 2rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, .1);
+  border-radius: .4rem;
+}
+#testimonials blockquote p{
+  position: relative;
+  text-indent: 3rem;
+  color: variables.$dark;
+  margin-bottom: 2.4rem;
+}
+#testimonials blockquote p span{
+  font-weight: 700;
+  font-size: 4.8rem;
+  font-family: serif;
+  top: .8rem;
+  left: -3.075rem;
+  color: variables.$primary;
+  position: absolute;
+}
+#testimonials cite{
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  color: variables.$grey;
+  gap: .8rem;
+}
+#testimonials cite img{
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: cover;
+  clip-path: circle();
+  margin-right: .5rem;
+}
+
+#testimonials .swiper-slide{
+  height: auto;
+  padding: 4rem 1.6rem;
+  margin-bottom: 2.4rem;
+}
+#testimonials .swiper-pagination-bullet-active{
+  background: variables.$primary;
+}

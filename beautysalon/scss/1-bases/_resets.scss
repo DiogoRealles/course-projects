@@ -1,0 +1,14 @@
+@use './variables';
+
+:root{
+  font-size: 62.5%;
+}
+::selection{
+  background: variables.$primary;
+  color: variables.$secondy;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,22 @@
+@use '../1-bases/variables';
+
+.back-to-top{
+  background: variables.$primary;
+  color: variables.$bg;
+  position: fixed;
+  right: 1.6rem;
+  bottom: 1.6rem;
+  padding: .5rem;
+  clip-path: circle();
+  font-size: 2.4rem;
+  line-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in-out;
+  transform: translateY(100%);
+}
+.back-to-top.show{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0%);
+}
